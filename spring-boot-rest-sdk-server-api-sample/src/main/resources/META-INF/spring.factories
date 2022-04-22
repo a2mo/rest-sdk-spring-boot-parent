@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ir.a2mo.sdk.sample.server.api.config.feign.CustomServerFeignConfig

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ir.a2mo.sdk.autoconfigure.configuration.SdkHttpClientAutoConfiguration,\
+ir.a2mo.sdk.autoconfigure.configuration.SdkFeignAutoConfiguration

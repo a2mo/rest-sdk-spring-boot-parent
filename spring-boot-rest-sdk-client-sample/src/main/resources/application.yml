@@ -1,0 +1,15 @@
+custom-server:
+  client:
+    authorization-configuration:
+      enable: true
+      username: user
+      password: changeit
+    base-service-url: http://localhost:8084
+    connection-configuration:
+      connection-timeout: 5000
+      socket-timeout: 5000
+
+# sample for feignLogger
+logging:
+  level:
+    ir.a2mo.sdk.sample.server.api.controller: DEBUG
