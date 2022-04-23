@@ -16,6 +16,12 @@
         </license>
     </licenses>
 
+    <scm>
+        <connection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</connection>
+        <developerConnection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <developers>
         <developer>
             <name>Ali Alimohammadi</name>
@@ -33,11 +39,6 @@
         <module>rest-sdk-spring-boot-server-api-sample</module>
     </modules>
 
-    <scm>
-        <connection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</connection>
-        <developerConnection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
 
     <properties>
         <spring-boot.version>2.5.12</spring-boot.version>
