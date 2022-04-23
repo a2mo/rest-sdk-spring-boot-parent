@@ -5,7 +5,16 @@
     <artifactId>rest-sdk-spring-boot-parent</artifactId>
     <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
+    <name>rest-sdk-spring-boot-parent</name>
     <description>Configuration for the Rest SDK for Spring Boot</description>
+    <url>https://github.com/a2mo/rest-sdk-spring-boot-parent</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
