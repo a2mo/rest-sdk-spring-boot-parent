@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ir.a2mo</groupId>
     <artifactId>rest-sdk-spring-boot-parent</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>rest-sdk-spring-boot-parent</name>
     <description>Configuration for the Rest SDK for Spring Boot</description>
@@ -20,7 +20,7 @@
         <url>https://github.com/a2mo/rest-sdk-spring-boot-parent</url>
         <connection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</connection>
         <developerConnection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</developerConnection>
-        <tag>v0.0.4</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <developers>
