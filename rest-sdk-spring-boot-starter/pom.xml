@@ -4,17 +4,17 @@
 
     <parent>
         <groupId>ir.a2mo</groupId>
-        <artifactId>spring-boot-rest-sdk-parent</artifactId>
+        <artifactId>rest-sdk-spring-boot-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <packaging>jar</packaging>
-    <artifactId>spring-boot-rest-sdk-starter</artifactId>
+    <artifactId>rest-sdk-spring-boot-starter</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>ir.a2mo</groupId>
-            <artifactId>spring-boot-rest-sdk-autoconfigure</artifactId>
+            <artifactId>rest-sdk-spring-boot-autoconfigure</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

@@ -1,17 +1,17 @@
-# spring-boot-rest-sdk-starter
+# rest-sdk-spring-boot-starter
 
 This project provides a Spring-Boot Starter that enables the additional configuration of the used Httpclients and
 FeignClient.
 
 ## Usage
 
-The `spring-boot-rest-sdk-starter` brings most of the required configuration with it, therefore you only need to
+The `rest-sdk-spring-boot-starter` brings most of the required configuration with it, therefore you only need to
 add it as a maven dependency and enable the desired Httpclient.
 
 ```
 <dependency>
   <groupId>ir.a2mo</groupId>
-  <artifactId>spring-boot-rest-sdk-starter</artifactId>
+  <artifactId>rest-sdk-spring-boot-starter</artifactId>
   <version>latest-version</version>
 </dependency>
 ```
@@ -37,7 +37,7 @@ Note that the errors returned by a service provider must follow the following st
     }
 }
 ```
-Also, You can use [ErrorObject](./spring-boot-rest-sdk-autoconfigure/src/main/java/ir/a2mo/sdk/autoconfigure/impl/feign/ErrorObject.java) instead of making object on your own .\
+Also, You can use [ErrorObject](./rest-sdk-spring-boot-autoconfigure/src/main/java/ir/a2mo/sdk/autoconfigure/impl/feign/ErrorObject.java) instead of making object on your own .\
 Keep in mind that you need to initialize conversion map.
 
 ### Make exceptionMap manually
@@ -130,5 +130,5 @@ public CustomClientConfig customClientConfig() {
 ## Sample Project
 
 You can find a sample project which configure `Feign` to use `Apache HttpClient`
-in spring-boot-rest-sdk-sample
+in rest-sdk-spring-boot-sample
 

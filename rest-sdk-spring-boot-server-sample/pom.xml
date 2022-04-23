@@ -3,29 +3,28 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-boot-rest-sdk-parent</artifactId>
+        <artifactId>rest-sdk-spring-boot-parent</artifactId>
         <groupId>ir.a2mo</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-boot-rest-sdk-server-api-sample</artifactId>
+    <artifactId>rest-sdk-spring-boot-server-sample</artifactId>
 
     <properties>
         <maven.deploy.skip>true</maven.deploy.skip>
         <maven.install.skip>true</maven.install.skip>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>ir.a2mo</groupId>
-            <artifactId>spring-boot-rest-sdk-starter</artifactId>
+            <artifactId>rest-sdk-spring-boot-server-api-sample</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+
 </project>

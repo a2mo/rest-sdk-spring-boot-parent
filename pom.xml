@@ -2,17 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>ir.a2mo</groupId>
-    <artifactId>spring-boot-rest-sdk-parent</artifactId>
+    <artifactId>rest-sdk-spring-boot-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <description>Configuration for the Rest SDK for Spring Boot</description>
 
     <modules>
-        <module>spring-boot-rest-sdk-autoconfigure</module>
-        <module>spring-boot-rest-sdk-starter</module>
-        <module>spring-boot-rest-sdk-client-sample</module>
-        <module>spring-boot-rest-sdk-server-sample</module>
-        <module>spring-boot-rest-sdk-server-api-sample</module>
+        <module>rest-sdk-spring-boot-autoconfigure</module>
+        <module>rest-sdk-spring-boot-starter</module>
+        <module>rest-sdk-spring-boot-client-sample</module>
+        <module>rest-sdk-spring-boot-server-sample</module>
+        <module>rest-sdk-spring-boot-server-api-sample</module>
     </modules>
 
     <scm>
@@ -47,12 +47,12 @@
             </dependency>
             <dependency>
                 <groupId>ir.a2mo</groupId>
-                <artifactId>spring-boot-rest-sdk-starter</artifactId>
+                <artifactId>rest-sdk-spring-boot-starter</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>ir.a2mo</groupId>
-                <artifactId>spring-boot-rest-sdk-autoconfigure</artifactId>
+                <artifactId>rest-sdk-spring-boot-autoconfigure</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
