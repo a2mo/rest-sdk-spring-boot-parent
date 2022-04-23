@@ -17,6 +17,7 @@
     </licenses>
 
     <scm>
+        <url>https://github.com/a2mo/rest-sdk-spring-boot-parent</url>
         <connection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</connection>
         <developerConnection>scm:git:https://github.com/a2mo/rest-sdk-spring-boot-parent.git</developerConnection>
         <tag>HEAD</tag>
