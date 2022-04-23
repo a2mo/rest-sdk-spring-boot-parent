@@ -177,7 +177,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub</name>
-                    <url>https://maven.pkg.github.com/a2mo/rest-sdk-spring-boot-starter</url>
+                    <url>https://maven.pkg.github.com/a2mo/rest-sdk-spring-boot-parent</url>
                 </repository>
             </distributionManagement>
         </profile>
